@@ -1,5 +1,3 @@
-ifeq ($(PRODUCT_PLATFORM_SOD),true)
-
 LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -33,5 +31,3 @@ endif
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_EXECUTABLE)
-
-endif
